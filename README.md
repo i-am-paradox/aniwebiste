@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Paradox | The Silent Revolution
 
-## Getting Started
+![Paradox Banner](/public/images/story-hero.png)
 
-First, run the development server:
+> "We don't sell headphones. We frame silence."
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Paradox is a world-class scrollytelling experience designed to push the boundaries of web animation. Built with **Next.js 14**, **Framer Motion**, and **Lenis**, it features pharmaceutical-grade scroll physics, kinetic typography, and a glitch-resistant digital signature system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-production-emerald.svg)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚡ Core Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Motion**: [Framer Motion](https://www.framer.com/motion/)
+-   **Physics**: [Lenis](https://lenis.studiofreight.com/) (Inertia Scroll)
+-   **Security**: Custom Identity Identity Signature & HUD Kill-switch
 
-## Learn More
+## 🚀 Features
 
-To learn more about Next.js, take a look at the following resources:
+### 1. Physics-Based Scrollytelling
+Text elements don't just fade; they stick, shrink into the void, and rotate based on scroll velocity (velocity-sensitive layouts).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. High-Performance Canvas
+Image sequences are rendered on HTML5 Canvas for 60fps performance, complete with a custom "film grain" overlay and radial masking to blend seamlessly with the dark mode UI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. The "Dynamic Island" Navbar
+A floating, glassmorphism-based navigation pill that reacts to user interaction.
 
-## Deploy on Vercel
+### 4. Anti-Tamper Signature
+The project includes a digital signature verification system (`core/Identity.ts`). If the signature is tampered with, the on-screen "Tech HUD" will fail to render, preserving the creator's mark.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/paradox-landing.git
+    cd paradox-landing
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open [http://localhost:3000](http://localhost:3000)** with your browser.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Designed & Engineered by [Paradox Architect](https://github.com/yourusername)**
