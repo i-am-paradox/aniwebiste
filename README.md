@@ -94,5 +94,7 @@ Copyright (c) 2024 **Paradox Architect**
 ---
 
 <div align="center">
-  <p style="font-size: 12px; color: #444;">ENGINEERED BY PARADOX ARCHITECT</p>
+  <p>If you use this code, please give it a star ⭐. It feeds the algorithm.</p>
+  <br />
+  <p style="font-size: 12px; color: #444;">ENGINEERED BY PARADOX</p>
 </div>
