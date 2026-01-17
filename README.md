@@ -44,19 +44,19 @@ To protect the creator's identity, a custom `Identity.ts` module acts as a kill-
 
 ```mermaid
 graph TD
-    User[User Input] -->|Event| Lenis[Lenis Physics Engine]
-    Lenis -->|Inertia Data| Framer[Framer Motion Hooks]
+    User["User Input"] -->|Event| Lenis["Lenis Physics Engine"]
+    Lenis -->|Inertia Data| Framer["Framer Motion Hooks"]
     
     subgraph Core Logic
-        Framer -->|Transform| DOM[DOM Elements (Typography)]
-        Framer -->|Draw Frame| Canvas[HTML5 Canvas Renderer]
+        Framer -->|Transform| DOM["DOM Elements (Typography)"]
+        Framer -->|Draw Frame| Canvas["HTML5 Canvas Renderer"]
     end
     
     subgraph Security Layer
-        Identity[Identity.ts] -->|Verify| HUD[Tech HUD]
+        Identity["Identity.ts"] -->|Verify| HUD["Tech HUD"]
     end
     
-    DOM --> Build[Visual Output]
+    DOM --> Build["Visual Output"]
     Canvas --> Build
     HUD --> Build
 ```
