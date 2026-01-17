@@ -40,6 +40,39 @@ To protect the creator's identity, a custom `Identity.ts` module acts as a kill-
 
 ---
 
+## 🧠 System Architecture
+
+```mermaid
+graph TD
+    User[User Input] -->|Event| Lenis[Lenis Physics Engine]
+    Lenis -->|Inertia Data| Framer[Framer Motion Hooks]
+    
+    subgraph Core Logic
+        Framer -->|Transform| DOM[DOM Elements (Typography)]
+        Framer -->|Draw Frame| Canvas[HTML5 Canvas Renderer]
+    end
+    
+    subgraph Security Layer
+        Identity[Identity.ts] -->|Verify| HUD[Tech HUD]
+    end
+    
+    DOM --> Build[Visual Output]
+    Canvas --> Build
+    HUD --> Build
+```
+
+## ⚡ Performance Optimization Strategy
+
+> **"Speed is a feature."**
+
+To ensure sub-100ms TTI (Time to Interactive) on all devices, this repository utilizes a **"Low-Fidelity First"** asset strategy:
+
+1.  **Asset Compression**: Image sequences are deliberately downsampled to reduce VRAM usage and load times. This allows the physics engine to run uninterrupted on constrained hardware.
+2.  **Visual Masking**: We utilize a custom **Film Grain Shader** and **CSS Filters** to mask compression artifacts, turning "low quality" into a deliberate "retro-analog" aesthetic.
+3.  **Lazy Loading**: High-fidelity assets are prioritized only when essential, ensuring the main thread remains unblocked for scroll calculations.
+
+---
+
 ## 🛠️ Installation
 
 ```bash
