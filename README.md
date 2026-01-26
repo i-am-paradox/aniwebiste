@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://i-am-paradox.github.io/aniwebiste">
-    <img src="public/images/readme/banner.png" alt="Paradox Banner" width="100%" />
+    <img src="public/images/readme/banner.png" alt="Paradox Banner" width="600" style="border-radius: 10px; box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);" />
   </a>
 
   <br />
@@ -10,7 +10,11 @@
   [![License](https://img.shields.io/badge/LICENSE-MIT-050505?style=for-the-badge&labelColor=white&logo=scale)](LICENSE)
   [![Framework](https://img.shields.io/badge/NEXT.JS-15-050505?style=for-the-badge&labelColor=black&logo=next.js)](https://nextjs.org)
 
-  <h3 align="center">THE SILENT REVOLUTION</h3>
+  <br />
+  
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=30&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=THE+SILENT+REVOLUTION;ENGINEERED+FOR+SILENCE;THE+FUTURE+OF+SOUND" alt="Typing SVG" />
+  </a>
   
   <p align="center">
     High-fidelity audio engineered for the silence. <br />
