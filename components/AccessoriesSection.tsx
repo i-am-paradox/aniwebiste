@@ -7,19 +7,19 @@ const accessories = [
         name: "Carbon Vault",
         price: "$129",
         desc: "Aerospace-grade carbon fiber carrying case.",
-        image: "/images/accessories-hero.png" // Re-using for demo, would ideally be unique
+        image: "/aniwebiste/images/accessories-hero.png" // Re-using for demo, would ideally be unique
     },
     {
         name: "Helix Cable",
         price: "$89",
         desc: "Oxygen-free copper, hand-braided, 3m length.",
-        image: "/images/accessories-hero.png"
+        image: "/aniwebiste/images/accessories-hero.png"
     },
     {
         name: "Titanium Stand",
         price: "$149",
         desc: "Solid block milled titanium headphone rest.",
-        image: "/images/accessories-hero.png"
+        image: "/aniwebiste/images/accessories-hero.png"
     }
 ];
 

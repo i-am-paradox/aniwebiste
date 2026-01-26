@@ -20,7 +20,7 @@ export default function StorySection() {
             <div className="h-[70vh] flex items-end pb-24 px-6 md:px-12 relative overflow-hidden">
                 <div
                     className="absolute inset-0 bg-cover bg-center opacity-50 contrast-125"
-                    style={{ backgroundImage: "url('/images/story-hero.png')" }}
+                    style={{ backgroundImage: "url('/aniwebiste/images/story-hero.png')" }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/60 to-transparent" />
 

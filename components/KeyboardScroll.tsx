@@ -10,7 +10,8 @@ const getImagePath = (index: number) => {
   // Filename format: 00001.jpg
   // Images are 1-based index in the folder (00001.jpg), but our loop is 0-based.
   const paddedIndex = (index + 1).toString().padStart(5, '0');
-  return `/images/sequence/${paddedIndex}.jpg`;
+  const basePath = '/aniwebiste';
+  return `${basePath}/images/sequence/${paddedIndex}.jpg`;
 };
 
 export default function KeyboardScroll() {

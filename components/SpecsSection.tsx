@@ -32,12 +32,12 @@ export default function SpecsSection() {
                 >
                     <div
                         className="w-[80vw] h-[80vw] md:w-[40vw] md:h-[40vw] bg-contain bg-center bg-no-repeat opacity-80"
-                        style={{ backgroundImage: "url('/images/specs-driver.png')" }} // Assuming we have this, or fallback to hero
+                        style={{ backgroundImage: "url('/aniwebiste/images/specs-driver.png')" }} // Assuming we have this, or fallback to hero
                     />
                     {/* Fallback using existing image if specific driver not there, logic: use hero but rotated */}
                     <div
                         className="absolute inset-0 bg-contain bg-center bg-no-repeat opacity-60 mix-blend-screen"
-                        style={{ backgroundImage: "url('/images/specs-hero.png')" }}
+                        style={{ backgroundImage: "url('/aniwebiste/images/specs-hero.png')" }}
                     />
                 </motion.div>
 
