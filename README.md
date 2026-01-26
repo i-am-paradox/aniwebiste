@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://i-am-paradox.github.io/aniwebiste">
-    <img src="public/images/readme/banner.png" alt="Paradox Banner" width="600" style="border-radius: 10px; box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);" />
+    <img src="public/images/readme/banner.png" alt="Paradox Banner" width="100%" style="border-radius: 10px; max-width: 800px; box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);" />
   </a>
 
   <br />
@@ -13,7 +13,7 @@
   <br />
   
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Syncopate&weight=700&size=28&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=600&lines=THE+SILENT+REVOLUTION;ENGINEERED+FOR+SILENCE;THE+FUTURE+OF+SOUND;PARADOX+ARCHITECT" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Syncopate&weight=700&size=22&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=350&lines=THE+SILENT+REVOLUTION;ENGINEERED+FOR+SILENCE;THE+FUTURE+OF+SOUND;PARADOX+ARCHITECT" alt="Typing SVG" />
   </a>
   
   <p align="center">
