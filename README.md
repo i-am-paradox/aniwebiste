@@ -13,7 +13,7 @@
   <br />
   
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=30&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=THE+SILENT+REVOLUTION;ENGINEERED+FOR+SILENCE;THE+FUTURE+OF+SOUND" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Syncopate&weight=700&size=28&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=600&lines=THE+SILENT+REVOLUTION;ENGINEERED+FOR+SILENCE;THE+FUTURE+OF+SOUND;PARADOX+ARCHITECT" alt="Typing SVG" />
   </a>
   
   <p align="center">
